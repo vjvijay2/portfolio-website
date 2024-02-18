@@ -1,0 +1,134 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+
+    font-family: "Gabarito", sans-serif;
+
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black;
+    gap: 15px;
+    align-items: center;
+}
+
+.title {
+    color: blueviolet;
+    font-size: 35px;
+}
+
+.search {
+    border: solid black 2px;
+    width: 60%;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.search input {
+    border: none;
+    width: 100%;
+    font-size: 10px;
+
+}
+
+.search input {
+    outline: none;
+}
+
+.icons {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+.categeries {
+    display: flex;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+
+.categeries p {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.images img {
+    width: 100%;
+}
+
+.recomend {
+    padding: 10px;
+}
+
+.recomend__conatiner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.courese-card {
+    width: 25%;
+}
+
+
+.courese-card img {
+    height: 50px;
+    width: 100px;
+}
+.topic{
+    padding: 20px;
+}
+.topic__conatainer{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.topic__conatainer p{
+    border: solid grey 2px;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
+.popular__container{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.popular{
+    padding: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+.footer__one p{
+    margin: 20px;
+}
+.footer__two{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
